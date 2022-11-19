@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="메인.css" />
+    <title>League of Legend Foram</title>
+    <style>
+        dl {
+            background-color:white
+         }
+        h1 {
+                color: white;
+                text-align: center;
+                text-transform: capitalize;
+                text-shadow: 0px -10px 5px black;
+        }
+        h3 {
+                color: black;
+                margin-left: 15%;
+                margin-top: 15%;
+                margin-bottom: 0px;
+                border-bottom: 2px solid gray;
+        }
+        li {
+            color: black;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        body {
+            background-color: #2E2E2E
+        }
+        ol {
+            line-height: 10%
+            
+        }
+        .img{
+            margin-top: 0px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            width: 250px;
+        }
+        .img-main{
+            width: 30px;
+            margin-right: 5px;
+        }
+        #login-box{
+            margin-left: 30px;
+            margin-right: 36px;
+            margin-bottom: 10px;
+            color: white;
+            font-size: 12px;
+            border: 2px solid greenyellow;
+        
+        }
+        .parent{
+            float:left; width: 100px; height:100px;
+        }
+        .child{
+            display:inline-block; width:400px; height:100px; margin: left 30px;
+        }
+        .child2{
+            display:inline-block; width:400px; height:100px; margin: left 30px;
+        }
+        .box{
+            list-style: none;
+            color: white;
+            text-align: center;
+        }
+        .right{
+          float: right;
+        }
+        .button{
+            width: 180px
+        }
+        .login{
+        margin: 20px;
+        width: 450px;
+        height: auto;
+        border-radius: 20px;
+        border: 2px solid gray;
+        padding: 0px;
+        box-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="right"><img src="그림.png" width="200" style="margin-top: 50px;">
+        <h2><u><strong>리그 순위</strong></u></h2>
+        <table>
+            <tr>
+                <th><FONT color=“AA0000>Rank</FONT></th>
+                <th><FONT color=“AA0000>Club</FONT></th>
+                <th><FONT color=“AA0000>W - L</FONT></th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>GEN</td>
+                <td>17W 1L</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>T1</td>
+                <td>15W 3L</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>LSB</td>
+                <td>13W 5L</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>DK</td>
+                <td>10W 8L</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>KT</td>
+                <td>10W 8L</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>DRX</td>
+                <td>9W 9L</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>KDF</td>
+                <td>6W 12L</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>NS</td>
+                <td>5W 13L</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>BRO</td>
+                <td>3W 15L</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>HLE</td>
+                <td>2W 16L</td>
+            </tr>
+        </table>
+    </div>
+    <h1><FONT color=“AA0000>L</FONT><Font size=6>eague</Font> <FONT color=“AA0000>O</FONT><Font size=6>f</Font> <FONT color=“AA0000>L</FONT><Font size=6>egends</font> <FONT color=“AA0000>F</FONT><Font size=6>orum</font></h1>
+        <div id="grid">
+<nav>
+    <img class="img" src="글2.png" width="200">
+    <div id="login-box">
+        <input type="id" placeholder="아이디">
+        <input type="password" placeholder="**********">
+       <label><br>
+       <input type="checkbox" value="remember-me"> 아이디저장
+       <input type="checkbox" value="auto-login"> 자동로그인
+        </label>
+       <button class="button" style="background-color: skyblue;" type="submit">로그인</button>
+       <button class="button" style="background-color: #EDD200;" type="submit" ><a href="회원가입.html">회원가입</a></button>
+    </div>
+    <ul>
+    <li class="box"><strong>공지사항</strong></li>
+    <li class="box"><strong><a href="게시판.html">업데이트</a></strong></li>
+    <li class="box"><strong>자유게시판</strong></li>
+    <li class="box"><strong>유저 신고</strong></li>
+    <li class="box"><strong>매드무비 신청</strong></li>
+    <li class="box"><strong>이달의 영상</strong></li>
+</nav>
+</ul>
+<dl>
+    <div class="parent" style="float: left; width: 50%; border: 0px solid rgb(51, 51, 51); margin: 0px; height: 167px; background-image: none; background-position: 0% 0%; background-repeat: repeat;"><div style="*zoom:1;padding:0px 5px 0px 0px !important;">
+        <div class="child">
+            <div class="login">
+    <h3><img class="img-main" src="공지사항.png">공지사항</h3><br>
+    <ol>
+    <li><strong style="background-color:#ff0000">알림</strong>
+    <span style="font-weight:bold;color:#ff7f00">홈페이지 오류 관련 안내</span></li></br>
+    <li><strong style="background-color:#ff0000">알림</strong>
+    <span style="font-weight:bold;color:#7f00ff">계정 관련 임시조치 안내드립니다.</span></li></br>
+    <li><strong style="background-color:#ff0000">알림</strong>
+    <span style="font-weight:bold;color:#0000ff">이메일 인증 관련 안내</span></li></br>
+    <li><strong style="background-color:#ff0000">알림</strong>
+    <span style="font-weight:bold;color:#5656ff">포럼 규칙 안내</span></li></br>
+    <li><strong style="background-color:#ff0000">알림</strong>
+    <span style="font-weight:bold;color:#ff0000">신규 운영진 모집 공고</span></li></br>
+</ol>
+</div>
+</div>
+</div></div>
+
+<div class="child2">
+    <div class="login">
+    <h3><img class="img-main" src="업데이트.png">업데이트</h3><br>
+    <ol>
+    <p style="margin-top: 0px;"><li>프리시즌 패치</li></br>
+    <li>12.19 패치노트</li></br>
+    <li>12.18 패치노트</li></br>
+    <li>12.17 패치노트</li></br>
+    <li>12.16(수정) 패치노트</li></br>
+</ol>
+</div>
+</div>
+<div>
+    <div class="parent" style="float: left; width: 50%; border: 0px solid rgb(51, 51, 51); margin: 0px; height: 167px; background-image: none; background-position: 0% 0%; background-repeat: repeat;"><div style="*zoom:1;padding:0px 5px 0px 0px !important;">
+        <div class="child">
+            <div class="login">
+    <h3><img class="img-main" src="자유게시판.png">자유게시판</h3><br>
+    <ol>
+    <li>정글동선좀 알려주세요</li></br>
+    <li>템 바뀌고나서 못하겠음 ㅜㅜ</li></br>
+    <li>탑 쉬바나 공략</li></br>
+    <li>마딱이 달성!!</li></br>
+    <li>라이엇 초심잃었네</li></br>
+</ol>
+</div>
+</div>
+</div></div>
+<div class="child">
+    <div class="login">
+    <h3><img class="img-main" src="유저신고.png">유저신고</h3><br>
+    <ol>
+    <li><strong style="background-color:#ff0000">알림</strong>
+    <span style="font-weight:bold;color:#007f7f">허위 사실 유포 하지마세요.</span></li></br>
+    <li>-유미원툴장인- 헬퍼입니다.</li></br>
+    <li>-롤매음- 악질유저 박제</li></br>
+    <li>-EhHey조졌네 이거- 핵유저(너무못핵)</li></br>
+    <li>-Hwani- 패드립 조심하세요</li></br>
+</ol>
+</div>
+</div>
+<div>
+<div class="parent" style="float: left; width: 50%; border: 0px solid rgb(51, 51, 51); margin: 0px; height: 167px; background-image: none; background-position: 0% 0%; background-repeat: repeat;"><div style="*zoom:1;padding:0px 5px 0px 0px !important;">
+        <div class="child">
+            <div class="login">
+    <h3><img class="img-main" src="매드무비신청.png">매드무비 신청</h3><br>
+    <ol>
+    <p style="margin-top: 0px;"><li>제 평생 소원입니다 한번만 올려주세요</li></br>
+    <li>못하는 사람들이 신청을 많이 하네요..ㅋ</li></br>
+    <li>아이언의 일상.</li></br>
+    <li>챌린저 1200점 매드무비 신청합니다.</li></br>
+    <li>페이커 매드무비</li></br>
+</ol>
+</div>
+</div>
+</div></div>
+<div class="child">
+    <div>
+    <h3 style="margin-top:30px;border: none; text-align: center;">이달의 영상</h3>
+    <li class="box"><iframe width="430" height="280" src="https://www.youtube.com/embed/74dXxkICaT0" title="뤌 매두무뷔" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+</div>
+</div>
+</div>
+</div>
+</dl>
+<div id='wrapper'>
+    <div>
+    </div>
+  </div>
+  <footer style="text-align: center;"><li class="box"><FONT color="white";><Font size=2>© 2012-2022 LOLF.GA. LOLF.GA isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
+</FONT></Font></li></footer>
+</body>
+</html>

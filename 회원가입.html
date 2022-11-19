@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="메인.css" />
+    <title>League of Legend Foram</title>
+    <style>
+        table, th, td {
+          border:2px solid white;
+          border-collapse: collapse;
+          color: white;
+          text-align: center;
+        }
+        th, td { padding:10px 10px; 
+        }
+        dl {
+            background-color:white
+         }
+         h1 {
+                color: white;
+                text-align: center;
+                text-transform: capitalize;
+                text-shadow: 0px -10px 5px black;
+        }
+        h3 {
+                color: black;
+                margin-left: 15%;
+                margin-top: 15%;
+                margin-bottom: 0px;
+                border-bottom: 2px solid gray;
+        }
+        li {
+            color: black;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        body {
+            background-color: #2E2E2E
+        }
+        .parent{
+            float:left; width: 100px; height:100px;
+        }
+        .child{
+            display:inline-block; width:400px; height:100px; margin: left 30px;
+        }
+        .child2{
+            display:inline-block; width:400px; height:100px; margin: left 30px;
+        }
+        .box{
+            list-style: none;
+            color: white;
+            text-align: center;
+        }
+        .right{
+          float: right;
+        }
+        #login-box{
+            margin-left: 30px;
+            margin-right: 36px;
+            margin-bottom: 10px;
+            color: white;
+            font-size: 12px;
+            border: 2px solid greenyellow;
+        
+        }
+        .button{
+            width: 180px
+        }
+        .img{
+            margin-top: 0px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            width: 250px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="right"><img src="그림.png" width="200" style="margin-top: 50px;">
+        <h2><u><strong>리그 순위</strong></u></h2>
+        <table>
+            <tr>
+                <th><FONT color=“AA0000>Rank</FONT></th>
+                <th><FONT color=“AA0000>Club</FONT></th>
+                <th><FONT color=“AA0000>W - L</FONT></th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>GEN</td>
+                <td>17W 1L</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>T1</td>
+                <td>15W 3L</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>LSB</td>
+                <td>13W 5L</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>DK</td>
+                <td>10W 8L</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>KT</td>
+                <td>10W 8L</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>DRX</td>
+                <td>9W 9L</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>KDF</td>
+                <td>6W 12L</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>NS</td>
+                <td>5W 13L</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>BRO</td>
+                <td>3W 15L</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>HLE</td>
+                <td>2W 16L</td>
+            </tr>
+        </table>
+    </div>
+    <h1><FONT color=“AA0000>L</FONT><Font size=6>eague</Font> <FONT color=“AA0000>O</FONT><Font size=6>f</Font> <FONT color=“AA0000>L</FONT><Font size=6>egends</font> <FONT color=“AA0000>F</FONT><Font size=6>orum</font></h1>
+        <div id="grid">
+<nav>
+    <img class="img" src="글2.png" width="200">
+    <div id="login-box">
+        <input type="id" placeholder="아이디">
+        <input type="password" placeholder="**********">
+       <label><br>
+       <input type="checkbox" value="remember-me"> 아이디저장
+       <input type="checkbox" value="auto-login"> 자동로그인
+        </label>
+       <button class="button" style="background-color: skyblue;" type="submit">로그인</button>
+       <button class="button" style="background-color: #EDD200;" type="submit" ><a href="회원가입.html">회원가입</a></button>
+    </div>
+    <ul>
+    <li class="box"><strong>공지사항</strong></li>
+    <li class="box"><strong><a href="게시판.html">업데이트</a></strong></li>
+    <li class="box"><strong>자유게시판</strong></li>
+    <li class="box"><strong>유저 신고</strong></li>
+    <li class="box"><strong>매드무비 신청</strong></li>
+    <li class="box"><strong>이달의 영상</strong></li>
+</nav>
+</ul>
+<link rel="stylesheet" href="회원가입.css"/>
+    <div class="login">
+        <hr align="center">
+          <h2>회원 가입</h2>
+          <p>닉네임</p>
+          <input type="text" name="nickname" class="text" placeholder="NICKNAME">
+          <p>아이디<input type="submit" value="중복 확인"></p>
+          <input type="text" name="id" class="text" placeholder="ID">
+          <p>비밀번호</p>
+          <input type="password" name="password" class="text" placeholder="PASSWORD">
+          <p>비밀번호 확인</p>
+          <input type="password" name="password" class="text" placeholder="Confirm PASSWORD">
+          <p>이메일</p>
+          <input type="text" name="email" class="text" placeholder="Example00@gmail.com">
+          <p>생년월일</p>
+          <input type="date" name="birth" class="text" placeholder="00-00-00">
+          <a href="메인.html" target="_blank">
+          <input type="submit" value="회원 가입" class="button"></a>
+      </div>
+      </div>
+      <link rel="stylesheet" href="메인.css" />
+<div id='wrapper'>
+    <div>
+    </div>
+  </div>
+  <footer><li class="box"><FONT color="white";><Font size=2>© 2012-2022 LOLF.GA. LOLF.GA isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
+</FONT></Font></li></footer>
+</body>
+</html>
