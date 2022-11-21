@@ -5,37 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="이달의영상.css" />
     <title>League of Legend Foram</title>
     <style>
         a {
             text-decoration: none;
             color: white
         }
-        p {
-            color: white;
-        }
-        table,
-        th,
-        td {
-            border: 2px solid white;
-            border-collapse: collapse;
-            color: white;
-            text-align: center;
-        }
-        th,
-        td {
-            padding: 10px 10px;
-        }
+
         dl {
             background-color: white
         }
+
         h1 {
             color: white;
             text-align: center;
             text-transform: capitalize;
             text-shadow: 0px -10px 5px black;
         }
+
         h3 {
             color: black;
             margin-left: 15%;
@@ -43,42 +31,39 @@
             margin-bottom: 0px;
             border-bottom: 2px solid gray;
         }
+
         li {
             color: black;
             margin-left: 20px;
             margin-top: 10px;
         }
+
         body {
             background-color: #2E2E2E
         }
-        .p {
+
+        ol {
+            line-height: 10%
+        }
+
+        p {
+            color: white;
             font-size: 40px;
         }
-        .parent {
-            float: left;
-            width: 100px;
-            height: 100px;
+
+        .img {
+            margin-top: 0px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            width: 250px;
         }
-        .child {
-            display: inline-block;
-            width: 400px;
-            height: 100px;
-            margin: left 30px;
+
+        .img-main {
+            width: 30px;
+            margin-right: 5px;
+            margin-left: 40px;
         }
-        .child2 {
-            display: inline-block;
-            width: 400px;
-            height: 100px;
-            margin: left 30px;
-        }
-        .box {
-            list-style: none;
-            color: white;
-            text-align: center;
-        }
-        .right {
-            float: right;
-        }
+
         #login-box {
             margin-left: 30px;
             margin-right: 36px;
@@ -86,15 +71,50 @@
             color: white;
             font-size: 12px;
             border: 2px solid gray;
+
         }
-        .img {
-            margin-top: 0px;
-            margin-bottom: 20px;
-            margin-left: 20px;
-            width: 250px;
+
+        .parent {
+            float: left;
+            width: 100px;
+            height: 100px;
         }
+
+        .child {
+            display: inline-block;
+            width: 400px;
+            height: 100px;
+            margin: left 30px;
+        }
+
+        .child2 {
+            display: inline-block;
+            width: 400px;
+            height: 100px;
+            margin: left 30px;
+        }
+
+        .box {
+            list-style: none;
+            color: white;
+            text-align: center;
+        }
+
+        .right {
+            float: right;
+        }
+
         .button {
-            width: 180px;
+            width: 180px
+        }
+
+        .login {
+            margin: 20px;
+            width: auto;
+            height: auto;
+            border-radius: 20px;
+            padding: 0px;
+            box-align: center;
         }
     </style>
 </head>
@@ -117,42 +137,40 @@
                 <button class="button" style="background-color: #EDD200;" type="submit"><a href="회원가입.html"
                         style="color: black;">회원가입</a></button>
             </div>
+            <link rel="stylesheet" href="index.css" />
             <ul>
                 <li class="box"><strong>공지사항</strong></li>
-                <li class="box"><strong><a href="업데이트.html">업데이트</a></strong></li>
+                <li class="box"><strong><a href="업데이트.html">업데이트</a></strong></a></li>
                 <li class="box"><strong>자유게시판</strong></li>
                 <li class="box"><strong>유저 신고</strong></li>
                 <li class="box"><strong>매드무비 신청</strong></li>
                 <li class="box"><strong><a href="이달의영상.html">이달의 영상</a></strong></li>
             </ul>
         </nav>
-        <link rel="stylesheet" href="회원가입.css" />
-
-        <div class="login">
-            <h2>회원 가입</h2>
-            <p>아이디<input type="submit" value="중복 확인"></p>
-            <input type="text" name="id" class="text" placeholder="ID" style="color: black;">
-            <p>비밀번호</p>
-            <input type="password" name="password" class="text" placeholder="PASSWORD" style="color: black;">
-            <p>비밀번호 확인</p>
-            <input type="password" name="password" class="text" placeholder="Confirm PASSWORD" style="color: black;">
-            <p>닉네임</p>
-            <input type="text" name="nickname" class="text" placeholder="NICKNAME" style="color: black;">
-            <p>이메일</p>
-            <input type="text" name="email" class="text" placeholder="Example00@gmail.com" style="color: black;">
-            <p>생년월일</p>
-            <input type="date" name="birth" class="text" placeholder="00-00-00" style="color: black;">
-            <a href="index.html" target="_blank">
-                <input type="submit" value="회원 가입" class="button2"></a>
-        </div>
-        
+        <dl>
+            <div class="login">
+                <h2 style=" text-align: left;">
+                    <FONT color="black" ;><img class="img-main" src="이달의영상.png">이달의 영상</FONT>
+                </h2>
+                <iframe width="1200" height="700" src="https://www.youtube.com/embed/74dXxkICaT0" title="뤌 매두무뷔"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                    </div>
+        </dl>
         <span class="right"><img src="그림.png" width="200">
-            <p class="p"><u><strong><a href=https://qwer.gg/ko target="_blank">리그 순위</a></strong></u></p>
+            <p><u><strong><a href=https://qwer.gg/ko target="_blank">리그 순위</a></strong></u></p>
             <table>
                 <tr>
-                    <th><FONT color=“AA0000>Rank</FONT></th>
-                    <th><FONT color=“AA0000>Club</FONT></th>
-                    <th><FONT color=“AA0000>W - L</FONT></th>
+                    <th>
+                        <FONT color=“AA0000>Rank</FONT>
+                    </th>
+                    <th>
+                        <FONT color=“AA0000>Club</FONT>
+                    </th>
+                    <th>
+                        <FONT color=“AA0000>W - L</FONT>
+                    </th>
                 </tr>
                 <tr>
                     <td>1</td>
@@ -209,7 +227,7 @@
     </div>
     <div id='wrapper'>
     </div>
-    <footer>
+    <footer style="text-align: center;">
         <li class="box">
             <FONT color="white" ;>
                 <Font size=2>© 2012-2022 LOLF. LOLF isn’t endorsed by Riot Games and doesn’t reflect the views or

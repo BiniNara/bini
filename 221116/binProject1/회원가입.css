@@ -1,51 +1,102 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Noto Sans KR', sans-serif;
-  }
-  h2 {
-    text-align: center;
-    color: white;
-    font-size: 30px;
-  
-  }
-  p {
-    color: white;
+body {
+  margin: 0 auto;
+}
+h1 {
+font-size: 50px;
+text-align: center;
+margin: 0;
+padding: 15px;
+border-bottom: none;
+}
+h2 {
+text-align: center;
+color: white;
+font-size: 30px;
 
+}
+dl {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 5em;
+  margin-left: 5em;
+  margin-right: 100px;
+}
+li {
+  padding: 10px;
+}
+table, th, td {
+  border:2px solid white;
+  border-collapse: collapse;
+  color: white;
+  text-align: center;
+}
+th, td { padding:10px 10px; 
+}
+ul {
+border-top: 2px solid gray;
+border-right: 2px solid gray;
+border-bottom: 2px solid gray;
+width: 175px;
+margin: 0;
+padding: 3em;
+padding-left: 20px;
+padding-right: 50px;
+padding-top: 10px;
+line-height: 300%;
+}
+#grid{  
+  display: grid;
+  grid-template-columns: 250px 1fr 300px;
   }
-  .login{
-    margin-top: 50px;
-    width: 500px;
-    height: auto;
-    border-radius: 20px;
-    background-color: #2E2E2E;
-    border: 5px solid white;
-    padding: 50px;
-    box-align: center;
+  @media(max-width :800px){
+  #grid {
+      display: block;
+      margin: 0;
   }
-    
-  
-  .text{
-    width: 85%;
-    font-size: 14px;
-    border-radius: 5px;
-    box-shadow: none;
-    color: #EEEFF1;
-    border: none;
-    padding: 8px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border: 2px solid black;
-  }
-  
-  .button {
-    width:100%;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 30px;
-    border-radius: 5px;
-    box-shadow: none;
-    color: white;
-    background-color: #EDD200;
-    border: none;
-    
-  }
+}
+@media(max-width :800px){
+#wrapper{
+  height: auto;
+  min-height: 100%;
+  padding-bottom: (10px);
+}
+footer{
+  height: (20px);
+  position : relative;
+  transform : translateY(-100%);
+}
+}
+.button2 {
+  width:100%;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 80px;
+  border-radius: 5px;
+  box-shadow: none;
+  color: white;
+  background-color: #EDD200;
+  border: none;
+}
+.text{
+  width: 85%;
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #EEEFF1;
+  border: none;
+  padding: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 2px solid black;
+}
+.login{
+  margin: auto;
+  margin-top: 50px;
+  width: 600px;
+  height: 700px;
+  border-radius: 20px;
+  background-color: #2E2E2E;
+  border: 5px solid white;
+  padding: 50px;
+  box-align: center;
+}
